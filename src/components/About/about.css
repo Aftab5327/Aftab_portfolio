@@ -106,45 +106,66 @@
   width: 80%;
 }
 
+/* Project heading override */
+.project-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}
+
 /* Tech Stack and Tools Stack */
 .tech-stack-container,
 .tools-stack-container {
-  justify-content: center;
-  padding-bottom: 30px;
-  margin: 0 -10px;
+  justify-content: center !important;
+  padding-bottom: 30px !important;
+  margin: 0 -10px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
 }
 
 .tech-icons-wrapper {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  margin-bottom: 15px;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 10px !important;
+  margin-bottom: 15px !important;
+  box-sizing: border-box !important;
 }
 
 .tech-icons {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 10px;
-  border-radius: 10px;
-  transition: all 0.4s ease;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1.7px solid rgba(200, 137, 230, 0.4);
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 15px 10px !important;
+  border-radius: 10px !important;
+  transition: all 0.4s ease !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.4) !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  margin: 0 !important;
+  font-size: inherit !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  overflow: hidden !important;
 }
 
 .tech-icons:hover {
-  transform: scale(1.05);
-  border: 2px solid rgba(197, 115, 230, 0.883);
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.2);
+  transform: scale(1.05) !important;
+  border: 2px solid rgba(197, 115, 230, 0.883) !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.2) !important;
+  overflow: hidden !important;
 }
 
 .tech-icons svg {
-  font-size: 4em;
-  margin-bottom: 10px;
+  font-size: 4em !important;
+  margin-bottom: 10px !important;
+  display: block !important;
 }
 
 .tech-label {
@@ -199,7 +220,11 @@
   }
   
   .tech-icons svg {
-    font-size: 3.5em;
+    font-size: 3.5em !important;
+  }
+  
+  .tech-icons {
+    padding: 12px 8px !important;
   }
 }
 
@@ -226,11 +251,22 @@
   }
   
   .tech-icons svg {
-    font-size: 3em;
+    font-size: 3em !important;
+  }
+  
+  .tech-icons {
+    padding: 10px 5px !important;
+    margin: 0 !important;
+  }
+  
+  .tech-icons-wrapper {
+    padding: 8px !important;
+    margin-bottom: 10px !important;
   }
   
   .tech-label {
-    font-size: 0.75em;
+    font-size: 0.75em !important;
+    margin-top: 5px !important;
   }
   
   .github-calendar-wrapper {
@@ -266,17 +302,32 @@
   }
   
   .tech-icons svg {
-    font-size: 2.5em;
+    font-size: 2.5em !important;
+  }
+  
+  .tech-icons {
+    padding: 8px 4px !important;
+    margin: 0 !important;
+  }
+  
+  .tech-icons-wrapper {
+    padding: 5px !important;
+    margin-bottom: 8px !important;
   }
   
   .tech-label {
-    font-size: 0.7em;
-    margin-top: 5px;
+    font-size: 0.7em !important;
+    margin-top: 5px !important;
   }
   
   .tech-heading {
     font-size: 1.3em;
     margin: 15px 0;
+  }
+  
+  .project-heading {
+    font-size: 1.8em !important;
+    padding-top: 5px !important;
   }
   
   .github-heading {
