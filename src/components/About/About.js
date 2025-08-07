@@ -27,18 +27,23 @@ function About() {
         
         <div className="section-divider"></div>
         
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />
+        <section className="skills-section">
+          <h1 className="project-heading">
+            Professional <span>Skillset</span>
+          </h1>
+          <p className="skills-description">Technologies I've worked with in my projects</p>
+          <Techstack />
+        </section>
         
         <div className="section-divider"></div>
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+        <section className="tools-section">
+          <h1 className="project-heading">
+            <strong className="purple">Tools</strong> I use
+          </h1>
+          <p className="skills-description">Development tools I'm proficient with</p>
+          <Toolstack />
+        </section>
         
         <div className="section-divider"></div>
 
