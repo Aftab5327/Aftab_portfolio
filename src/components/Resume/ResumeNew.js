@@ -29,9 +29,9 @@ function ResumeNew() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <div className="resume-item">
-              <h5>Full Stack Developer</h5>
-              <h5 className="resume-title">Zidio Development</h5>
-              <p><em>June 2022 - Present</em></p>
+              <h5>software Developer</h5>
+              <h5 className="resume-title">SAS Automation Pvt Ltd</h5>
+              <p><em>Dec 2023 - Present</em></p>
               <ul>
                 <li>Developed and maintained web applications using React.js, Node.js, and MongoDB</li>
                 <li>Implemented responsive UI designs and RESTful APIs</li>
@@ -40,9 +40,9 @@ function ResumeNew() {
               </ul>
             </div>
             <div className="resume-item">
-              <h5>IoT Developer</h5>
-              <h5 className="resume-title">SAS Automation</h5>
-              <p><em>January 2021 - May 2022</em></p>
+              <h5>Web Developer Intern</h5>
+              <h5 className="resume-title">Zidio development</h5>
+              <p><em>Jun 2023 - Nov 2023</em></p>
               <ul>
                 <li>Designed and implemented IoT solutions for industrial automation</li>
                 <li>Developed firmware for Arduino and ESP8266 microcontrollers</li>
@@ -55,13 +55,13 @@ function ResumeNew() {
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
               <h5>BE in Electronics & Telecommunication with Honors in Data Science</h5>
-              <p><em>2016 - 2020</em></p>
-              <p>Completed my bachelor's degree with a focus on electronics, telecommunications, and data science applications.</p>
+              <p><em>2018 - 2022</em></p>
+              <p>Completed my bachelor's degree with a focus on electronics, telecommunications, and Honors data science applications.</p>
             </div>
             <div className="resume-item">
               <h5>PG Diploma in Advanced Computing</h5>
               <h5 className="resume-title">CDAC</h5>
-              <p><em>2020 - 2021</em></p>
+              <p><em>2022 - 2023</em></p>
               <p>Specialized in advanced computing concepts including software development, database management, and web technologies.</p>
             </div>
             
