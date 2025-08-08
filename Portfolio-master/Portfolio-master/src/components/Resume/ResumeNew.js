@@ -40,7 +40,7 @@ function ResumeNew() {
               </ul>
             </div>
             <div className="resume-item">
-              <h5>Web Developer Intern</h5>
+              <h5>Web Developer</h5>
               <h5 className="resume-title">Zidio development</h5>
               <p><em>Jun 2023 - Nov 2023</em></p>
               <ul>
