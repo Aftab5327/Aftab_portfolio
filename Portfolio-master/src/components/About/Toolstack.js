@@ -11,31 +11,48 @@ import { FaMicrochip } from "react-icons/fa";
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-        <p className="tech-label">VS Code</p>
+    <Row className="tools-stack-container">
+      <Col xs={12}>
+        <h5 className="tech-heading">Development Tools</h5>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGithubBadge />
-        <p className="tech-label">GitHub</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-        <p className="tech-label">Postman</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
-        <p className="tech-label">Docker</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws />
-        <p className="tech-label">AWS</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaMicrochip />
-        <p className="tech-label">Arduino IDE</p>
-      </Col>
+      <div className="tech-category-container">
+        <Col xs={6} sm={4} md={3} lg={2} className="tech-icons-wrapper">
+          <div className="tech-icons">
+            <SiVisualstudiocode />
+            <p className="tech-label">VS Code</p>
+          </div>
+        </Col>
+        <Col xs={6} sm={4} md={3} lg={2} className="tech-icons-wrapper">
+          <div className="tech-icons">
+            <DiGithubBadge />
+            <p className="tech-label">GitHub</p>
+          </div>
+        </Col>
+        <Col xs={6} sm={4} md={3} lg={2} className="tech-icons-wrapper">
+          <div className="tech-icons">
+            <SiPostman />
+            <p className="tech-label">Postman</p>
+          </div>
+        </Col>
+        <Col xs={6} sm={4} md={3} lg={2} className="tech-icons-wrapper">
+          <div className="tech-icons">
+            <SiDocker />
+            <p className="tech-label">Docker</p>
+          </div>
+        </Col>
+        <Col xs={6} sm={4} md={3} lg={2} className="tech-icons-wrapper">
+          <div className="tech-icons">
+            <SiAmazonaws />
+            <p className="tech-label">AWS</p>
+          </div>
+        </Col>
+        <Col xs={6} sm={4} md={3} lg={2} className="tech-icons-wrapper">
+          <div className="tech-icons">
+            <FaMicrochip />
+            <p className="tech-label">Arduino IDE</p>
+          </div>
+        </Col>
+      </div>
     </Row>
   );
 }

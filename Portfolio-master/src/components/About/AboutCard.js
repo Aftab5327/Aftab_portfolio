@@ -4,10 +4,10 @@ import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className="quote-card-view about-card">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p className="about-text">
             Hi Everyone, I am <span className="purple">Aftab Dhalait </span>
             from <span className="purple"> India.</span>
             <br />
@@ -16,32 +16,39 @@ function AboutCard() {
             I have completed BE in Electronics & Telecommunication with Honors in Data Science.
             <br />
             I also have a PG Diploma in Advanced Computing from CDAC.
-            <br />
-            <br />
+          </p>
+          
+          <p className="about-text about-activities-heading">
             Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
+          
+          <ul className="about-activity-list">
             <li className="about-activity">
-              <ImPointRight /> Integrating Hardware and Software
+              <ImPointRight className="about-activity-icon" /> 
+              <span>Integrating Hardware and Software</span>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring New Technologies
+              <ImPointRight className="about-activity-icon" /> 
+              <span>Exploring New Technologies</span>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Problem Solving
-            </li>
-             <li className="about-activity">
-              <ImPointRight /> Designing Frontend Interfaces
+              <ImPointRight className="about-activity-icon" /> 
+              <span>Problem Solving</span>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Developing Full-Stack Applications
+              <ImPointRight className="about-activity-icon" /> 
+              <span>Designing Frontend Interfaces</span>
+            </li>
+            <li className="about-activity">
+              <ImPointRight className="about-activity-icon" /> 
+              <span>Developing Full-Stack Applications</span>
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Building technology that makes a meaningful impact!"{" "}
+          <p className="about-quote">
+            "Building technology that makes a meaningful impact!"
           </p>
-          <footer className="blockquote-footer">Aftab</footer>
+          <footer className="blockquote-footer about-footer">Aftab</footer>
         </blockquote>
       </Card.Body>
     </Card>
