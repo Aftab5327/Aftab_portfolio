@@ -9,7 +9,7 @@ function Type() {
           "Full Stack Developer",
           "IoT Specialist",
           "AI Enthusiast",
-          "MERN Stack Developer",
+          "Embedded Software Engineer",
         ],
         autoStart: true,
         loop: true,
